@@ -24,7 +24,5 @@ body{
 }
 
 img{
-    object-fit: cover;
-    width: 164px;
-    height: 72px;
+    display: block;
 }
