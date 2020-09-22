@@ -22,3 +22,9 @@ body{
 [class*="col-"]{
     float: left;
 }
+
+img{
+    object-fit: cover;
+    width: 164px;
+    height: 72px;
+}
