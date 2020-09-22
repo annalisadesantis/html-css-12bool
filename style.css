@@ -5,7 +5,13 @@
 }
 
 body{
-    max-width: 1170px;
+    max-width: 1200px;
+}
+
+/* sezione1 */
+
+#sezione1{
+    margin-bottom: 60px;
 }
 
 .container{
@@ -19,10 +25,55 @@ body{
     clear: both;
 }
 
-[class*="col-"]{
-    float: left;
-}
-
 img{
     display: block;
+}
+
+/* sezione2 */
+
+/* #sezione2{
+    max-width: 1200px;
+} */
+
+.container-2{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container-2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#sezione2 [class*="col-"]{
+    height: 40px;
+}
+
+.yellow{
+    background-color: #ffff99;
+}
+
+.red{
+    background-color: #ff7f7f;
+}
+
+.orange{
+    background-color: #ffd27f;
+}
+
+.green{
+    background-color: #329932;
+}
+
+.light-green{
+    background-color: #99cc99;
+}
+
+.brown{
+    background-color: #ae3f3f;
+}
+
+.white{
+    background-color: white;
 }
